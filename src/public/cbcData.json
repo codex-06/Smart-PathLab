@@ -1,0 +1,286 @@
+{
+  "White Blood Cell (WBC)": {
+    "What It Is": "White blood cells are like the body's security force. They help protect you from germs and infections.",
+    "Reference Values": {
+      "Adults (18-49)": {
+        "Upper Limit": 6.1,
+        "Lower Limit": 4.7
+      },
+      "Children (0-17)": {
+        "Upper Limit": 8.0,
+        "Lower Limit": 3.0
+      },
+      "Elderly (50+)": {
+        "Upper Limit": 6.5,
+        "Lower Limit": 4.5
+      }
+    },
+    "Effects": {
+      "Above Limit": "Imagine your body is fighting a big battle. You might have an infection, like a cold, or an inflammation, like a sore throat.",
+      "Below Limit": "If your security force is understaffed, you could catch infections more easily. You might feel tired and weak because your body can't defend itself properly."
+    },
+    "Possible Causes": {
+      "Above Limit": "Infections can cause the number of white blood cells to increase. So can inflammation from injuries or illnesses.",
+      "Below Limit": "If you have too few white blood cells, it could be a sign that your body isn't making them properly. Some medications can also reduce the number of these little soldiers."
+    },
+    "Natural Fixes": [
+      "Stay hydrated: Drinking water helps your body function well.",
+      "Get enough sleep: Your soldiers need their rest to be ready for action.",
+      "Manage stress: Stress weakens your immune system, so take it easy when you can.",
+      "Maintain a healthy diet: Eating balanced meals with fruits and vegetables provides the energy your body needs to fight off invaders."
+    ]
+  },
+  "Red Blood Cell (RBC)": {
+    "What It Is": "Red blood cells are like your body's delivery trucks. They carry oxygen from your lungs to all the different parts of your body, making sure every cell gets the oxygen it needs to keep you alive.",
+    "Reference Values": {
+      "Adults (18-49)": {
+        "Upper Limit": 5.1,
+        "Lower Limit": 4.1
+      },
+      "Children (0-17)": {
+        "Upper Limit": 4.8,
+        "Lower Limit": 3.9
+      },
+      "Elderly (50+)": {
+        "Upper Limit": 5.2,
+        "Lower Limit": 4.2
+      }
+    },
+    "Effects": {
+      "Above Limit": "High RBC counts may indicate dehydration or other conditions.",
+      "Below Limit": "Low RBC counts can lead to anemia and fatigue."
+    },
+    "Possible Causes": {
+      "Above Limit": "Dehydration, lung issues.",
+      "Below Limit": "Iron deficiency, chronic disease."
+    },
+    "Natural Fixes": [
+      "Eat iron-rich foods, stay hydrated, and manage underlying health conditions."
+    ]
+  },
+  "Hemoglobin (Hb)": {
+    "What It Is": "Hemoglobin helps RBCs carry oxygen to your body's cells.",
+    "Reference Values": {
+      "Adults (18-49)": {
+        "Upper Limit": 15.5,
+        "Lower Limit": 12.0
+      },
+      "Children (0-17)": {
+        "Upper Limit": 15.0,
+        "Lower Limit": 11.0
+      },
+      "Elderly (50+)": {
+        "Upper Limit": 16.0,
+        "Lower Limit": 11.5
+      }
+    },
+    "Effects": {
+      "Above Limit": "High hemoglobin may indicate dehydration.",
+      "Below Limit": "Low hemoglobin can lead to anemia and fatigue."
+    },
+    "Possible Causes": {
+      "Above Limit": "Dehydration, lung issues.",
+      "Below Limit": "Iron deficiency, chronic disease."
+    },
+    "Natural Fixes": [
+      "Eat iron-rich foods, stay hydrated, and manage underlying health conditions."
+    ]
+  },
+  "Hematocrit (HCT)": {
+    "What It Is": "It measures the percentage of blood volume made up of RBCs.",
+    "Reference Values": {
+      "Adults (18-49)": {
+        "Upper Limit": 45.0,
+        "Lower Limit": 38.3
+      },
+      "Children (0-17)": {
+        "Upper Limit": 42.0,
+        "Lower Limit": 36.0
+      },
+      "Elderly (50+)": {
+        "Upper Limit": 46.0,
+        "Lower Limit": 39.0
+      }
+    },
+    "Effects": {
+      "Above Limit": "High HCT may suggest dehydration.",
+      "Below Limit": "Low HCT can lead to anemia and fatigue."
+    },
+    "Possible Causes": {
+      "Above Limit": "Dehydration, lung issues.",
+      "Below Limit": "Iron deficiency, chronic disease."
+    },
+    "Natural Fixes": [
+      "Eat iron-rich foods, stay hydrated, and manage underlying health conditions."
+    ]
+  },
+  "Mean Cell Volume (MCV)": {
+    "What It Is": "MCV measures the average volume of your RBCs.",
+    "Reference Values": {
+          "Adults (18-49)": {
+            "Upper Limit": 100,
+            "Lower Limit": 80
+          },
+          "Children (0-17)": {
+            "Upper Limit": 95,
+            "Lower Limit": 80
+          },
+          "Elderly (50+)": {
+            "Upper Limit": 100,
+            "Lower Limit": 80
+          }
+        },
+        "Effects": {
+          "Above Limit": "High MCV may be due to certain health conditions.",
+          "Below Limit": "Low MCV can indicate anemia."
+        },
+        "Possible Causes": {
+          "Above Limit": "Vitamin deficiencies, liver disease.",
+          "Below Limit": "Iron deficiency, thalassemia."
+        },
+        "Natural Fixes": [
+          "Maintain a balanced diet and treat underlying conditions."
+        ]
+      },
+  "Mean Cell Hemoglobin (MCH)": {
+    "What It Is": "MCH measures the amount of hemoglobin in an individual RBC.",
+    "Reference Values": {
+      "Adults (18-49)": {
+        "Upper Limit": 34,
+        "Lower Limit": 26
+      },
+      "Children (0-17)": {
+        "Upper Limit": 32,
+        "Lower Limit": 24
+      },
+      "Elderly (50+)": {
+        "Upper Limit": 35,
+        "Lower Limit": 27
+      }
+    },
+    "Effects": {
+      "Above Limit": "High MCH may be related to health conditions.",
+      "Below Limit": "Low MCH can indicate anemia."
+    },
+    "Possible Causes": {
+      "Above Limit": "Liver disease, smoking.",
+      "Below Limit": "Iron deficiency, thalassemia."
+    },
+    "Natural Fixes": [
+      "Maintain a balanced diet and quit smoking."
+    ]
+  },
+  "Mean Cell Hb Concentration (MCHC)": {
+    "What It Is": "MCHC measures the concentration of hemoglobin in RBCs.",
+    "Reference Values": {
+      "Adults (18-49)": {
+        "Upper Limit": 36,
+        "Lower Limit": 32
+      },
+      "Children (0-17": {
+        "Upper Limit": 35,
+        "Lower Limit": 31
+      },
+      "Elderly (50+)": {
+        "Upper Limit": 37,
+        "Lower Limit": 33
+      }
+    },
+    "Effects": {
+      "Above Limit": "High MCHC may be associated with health conditions.",
+      "Below Limit": "Low MCHC can indicate anemia."
+    },
+    "Possible Causes": {
+      "Above Limit": "Dehydration, hereditary spherocytosis.",
+      "Below Limit": "Iron deficiency, thalassemia."
+    },
+    "Natural Fixes": [
+      "Maintain a balanced diet and treat underlying conditions."
+    ]
+  },
+  "Red Cell Distribution Width (RDW)": {
+    "What It Is": "RDW measures the variation in the size of RBCs.",
+    "Reference Values": {
+      "Adults (18-49)": {
+        "Upper Limit": 15,
+        "Lower Limit": 11.5
+      },
+      "Children (0-17)": {
+        "Upper Limit": 15,
+        "Lower Limit": 11.5
+      },
+      "Elderly (50+)": {
+        "Upper Limit": 15,
+        "Lower Limit": 11.5
+      }
+    },
+    "Effects": {
+      "Above Limit": "High RDW can indicate various health conditions.",
+      "Below Limit": "Low RDW is not typically a concern."
+    },
+    "Possible Causes": {
+      "Above Limit": "Anemia, vitamin deficiencies.",
+      "Below Limit": "Less common and not well-defined."
+    },
+    "Natural Fixes": [
+      "Treat underlying health conditions and maintain a balanced diet."
+    ]
+  },
+  "Platelet Count": {
+    "What It Is": "Platelets help with blood clotting.",
+    "Reference Values": {
+      "Adults (18-49)": {
+        "Upper Limit": 450000,
+        "Lower Limit": 150000
+      },
+      "Children (0-17)": {
+        "Upper Limit": 450000,
+        "Lower Limit": 150000
+      },
+      "Elderly (50+)": {
+        "Upper Limit": 450000,
+        "Lower Limit": 150000
+      }
+    },
+    "Effects": {
+      "Above Limit": "High platelet counts may increase the risk of blood clots.",
+      "Below Limit": "Low platelet counts can lead to bleeding issues."
+    },
+    "Possible Causes": {
+      "Above Limit": "Infection, bone marrow disorders.",
+      "Below Limit": "Bone marrow issues, medications."
+    },
+    "Natural Fixes": [
+      "Treatment depends on the underlying cause, and it may include medications or transfusions."
+    ]
+  },
+  "Mean Platelet Volume (MPV)": {
+    "What It Is": "MPV measures the average size of platelets.",
+    "Reference Values": {
+      "Adults (18-49)": {
+        "Upper Limit": 13.5,
+        "Lower Limit": 7.5
+      },
+      "Children (0-17)": {
+        "Upper Limit": 13.5,
+        "Lower Limit": 7.5
+      },
+      "Elderly (50+)": {
+        "Upper Limit": 13.5,
+        "Lower Limit": 7.5
+      }
+    },
+    "Effects": {
+      "Above Limit": "High MPV may indicate certain health conditions.",
+      "Below Limit": "Low MPV is usually not a significant concern."
+    },
+    "Possible Causes": {
+      "Above Limit": "Infection, inflammation.",
+      "Below Limit": "Bone marrow issues, certain medications."
+    },
+    "Natural Fixes": [
+      "Treatment depends on the underlying cause."
+    ]
+  }
+}
+    

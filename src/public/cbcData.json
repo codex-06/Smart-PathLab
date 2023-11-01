@@ -2,17 +2,33 @@
   "White Blood Cell (WBC)": {
     "What It Is": "White blood cells are like the body's security force. They help protect you from germs and infections.",
     "Reference Values": {
-      "Adults (18-49)": {
-        "Upper Limit": 6.1,
-        "Lower Limit": 4.7
+      "males": {
+        "0-17": {
+          "Upper Limit": 8.0,
+          "Lower Limit": 3.0
+        },
+        "18-49": {
+          "Upper Limit": 6.0,
+          "Lower Limit": 4.5
+        },
+        "50+": {
+          "Upper Limit": 6.2,
+          "Lower Limit": 4.6
+        }
       },
-      "Children (0-17)": {
-        "Upper Limit": 8.0,
-        "Lower Limit": 3.0
-      },
-      "Elderly (50+)": {
-        "Upper Limit": 6.5,
-        "Lower Limit": 4.5
+      "females": {
+        "0-17": {
+          "Upper Limit": 8.0,
+          "Lower Limit": 3.0
+        },
+        "18-49": {
+          "Upper Limit": 6.5,
+          "Lower Limit": 4.8
+        },
+        "50+": {
+          "Upper Limit": 6.7,
+          "Lower Limit": 5.0
+        }
       }
     },
     "Effects": {
@@ -33,17 +49,33 @@
   "Red Blood Cell (RBC)": {
     "What It Is": "Red blood cells are like your body's delivery trucks. They carry oxygen from your lungs to all the different parts of your body, making sure every cell gets the oxygen it needs to keep you alive.",
     "Reference Values": {
-      "Adults (18-49)": {
-        "Upper Limit": 5.1,
-        "Lower Limit": 4.1
+      "males": {
+        "0-17": {
+          "Upper Limit": 4.8,
+          "Lower Limit": 3.9
+        },
+        "18-49": {
+          "Upper Limit": 5.2,
+          "Lower Limit": 4.5
+        },
+        "50+": {
+          "Upper Limit": 5.3,
+          "Lower Limit": 4.6
+        }
       },
-      "Children (0-17)": {
-        "Upper Limit": 4.8,
-        "Lower Limit": 3.9
-      },
-      "Elderly (50+)": {
-        "Upper Limit": 5.2,
-        "Lower Limit": 4.2
+      "females": {
+        "0-17": {
+          "Upper Limit": 4.8,
+          "Lower Limit": 3.9
+        },
+        "18-49": {
+          "Upper Limit": 5.0,
+          "Lower Limit": 4.2
+        },
+        "50+": {
+          "Upper Limit": 5.1,
+          "Lower Limit": 4.4
+        }
       }
     },
     "Effects": {
@@ -61,21 +93,37 @@
   "Hemoglobin (Hb)": {
     "What It Is": "Hemoglobin helps RBCs carry oxygen to your body's cells.",
     "Reference Values": {
-      "Adults (18-49)": {
-        "Upper Limit": 15.5,
-        "Lower Limit": 12.0
+      "males": {
+        "0-17": {
+          "Upper Limit": 15.5,
+          "Lower Limit": 11.5
+        },
+        "18-49": {
+          "Upper Limit": 17.5,
+          "Lower Limit": 13.5
+        },
+        "50+": {
+          "Upper Limit": 17.0,
+          "Lower Limit": 13.0
+        }
       },
-      "Children (0-17)": {
-        "Upper Limit": 15.0,
-        "Lower Limit": 11.0
-      },
-      "Elderly (50+)": {
-        "Upper Limit": 16.0,
-        "Lower Limit": 11.5
+      "females": {
+        "0-17": {
+          "Upper Limit": 15.5,
+          "Lower Limit": 11.5
+        },
+        "18-49": {
+          "Upper Limit": 16.0,
+          "Lower Limit": 12.5
+        },
+        "50+": {
+          "Upper Limit": 16.5,
+          "Lower Limit": 12.0
+        }
       }
     },
     "Effects": {
-      "Above Limit": "High hemoglobin may indicate dehydration.",
+      "Above Limit": "High hemoglobin may indicate dehydration or other conditions.",
       "Below Limit": "Low hemoglobin can lead to anemia and fatigue."
     },
     "Possible Causes": {
@@ -87,24 +135,40 @@
     ]
   },
   "Hematocrit (HCT)": {
-    "What It Is": "It measures the percentage of blood volume made up of RBCs.",
+    "What It Is": "Hematocrit measures the percentage of blood volume made up of Red Blood Cells (RBCs).",
     "Reference Values": {
-      "Adults (18-49)": {
-        "Upper Limit": 45.0,
-        "Lower Limit": 38.3
+      "males": {
+        "0-17": {
+          "Upper Limit": 42.0,
+          "Lower Limit": 32.0
+        },
+        "18-49": {
+          "Upper Limit": 50.0,
+          "Lower Limit": 38.3
+        },
+        "50+": {
+          "Upper Limit": 49.4,
+          "Lower Limit": 36.4
+        }
       },
-      "Children (0-17)": {
-        "Upper Limit": 42.0,
-        "Lower Limit": 36.0
-      },
-      "Elderly (50+)": {
-        "Upper Limit": 46.0,
-        "Lower Limit": 39.0
+      "females": {
+        "0-17": {
+          "Upper Limit": 42.0,
+          "Lower Limit": 32.0
+        },
+        "18-49": {
+          "Upper Limit": 44.3,
+          "Lower Limit": 36.1
+        },
+        "50+": {
+          "Upper Limit": 44.6,
+          "Lower Limit": 35.9
+        }
       }
     },
     "Effects": {
-      "Above Limit": "High HCT may suggest dehydration.",
-      "Below Limit": "Low HCT can lead to anemia and fatigue."
+      "Above Limit": "High hematocrit may suggest dehydration or other conditions.",
+      "Below Limit": "Low hematocrit can lead to anemia and fatigue."
     },
     "Possible Causes": {
       "Above Limit": "Dehydration, lung issues.",
@@ -115,47 +179,83 @@
     ]
   },
   "Mean Cell Volume (MCV)": {
-    "What It Is": "MCV measures the average volume of your RBCs.",
+    "What It Is": "MCV measures the average volume of your Red Blood Cells (RBCs).",
     "Reference Values": {
-          "Adults (18-49)": {
-            "Upper Limit": 100,
-            "Lower Limit": 80
-          },
-          "Children (0-17)": {
-            "Upper Limit": 95,
-            "Lower Limit": 80
-          },
-          "Elderly (50+)": {
-            "Upper Limit": 100,
-            "Lower Limit": 80
+      "males": {
+        "0-17": {
+          "Upper Limit": 86.0,
+          "Lower Limit": 74.0
+        },
+        "18-49": {
+          "Upper Limit": 99.0,
+          "Lower Limit": 80.0
+        },
+        "50+": {
+          "Upper Limit": 99.2,
+          "Lower Limit": 80.1
+        }
+      },
+      "females": {
+        "0-17": {
+          "Upper Limit": 86.0,
+          "Lower Limit": 74.0
+        },
+        "18-49": {
+          "Upper Limit": 99.5,
+          "Lower Limit": 80.0
+        },
+        "50+": {
+          "Upper Limit": 99.6,
+          "Lower Limit": 80.0
+        }
+      }
+    },
+    "Effects": {
+      "Above Limit": "High MCV may be due to certain health conditions.",
+      "Below Limit": "Low MCV can indicate anemia."
+    },
+    "Possible Causes": {
+      "Above Limit": "Vitamin deficiencies, liver disease.",
+      "Below Limit": "Iron deficiency, thalassemia."
+    },
+    "Natural Fixes": [
+      "Maintain a balanced diet and treat underlying conditions."
+    ]
+  },
+  "Mean Cell Hemoglobin (MCH)": {
+    "What It Is": "MCH measures the amount of hemoglobin in an individual Red Blood Cell (RBC).",
+    "Reference Values":{
+      "males": {
+        "children": {
+          "0-17": {
+            "Upper Limit": 30.0,
+            "Lower Limit": 25.0
           }
         },
-        "Effects": {
-          "Above Limit": "High MCV may be due to certain health conditions.",
-          "Below Limit": "Low MCV can indicate anemia."
+        "18-49": {
+          "Upper Limit": 33.0,
+          "Lower Limit": 27.0
         },
-        "Possible Causes": {
-          "Above Limit": "Vitamin deficiencies, liver disease.",
-          "Below Limit": "Iron deficiency, thalassemia."
+        "50+": {
+          "Upper Limit": 33.5,
+          "Lower Limit": 27.0
+        }
+      },
+      "females": {
+        "children": {
+          "0-17": {
+            "Upper Limit": 30.0,
+            "Lower Limit": 25.0
+          }
         },
-        "Natural Fixes": [
-          "Maintain a balanced diet and treat underlying conditions."
-        ]
-      },
-  "Mean Cell Hemoglobin (MCH)": {
-    "What It Is": "MCH measures the amount of hemoglobin in an individual RBC.",
-    "Reference Values": {
-      "Adults (18-49)": {
-        "Upper Limit": 34,
-        "Lower Limit": 26
-      },
-      "Children (0-17)": {
-        "Upper Limit": 32,
-        "Lower Limit": 24
-      },
-      "Elderly (50+)": {
-        "Upper Limit": 35,
-        "Lower Limit": 27
+        "18-49": {
+          "Upper Limit": 33.5,
+          "Lower Limit": 27.0
+        },
+        "50+": {
+          "Upper Limit": 34.0,
+          "Lower Limit": 27.0
+        }
       }
     },
     "Effects": {
@@ -170,20 +270,36 @@
       "Maintain a balanced diet and quit smoking."
     ]
   },
-  "Mean Cell Hb Concentration (MCHC)": {
-    "What It Is": "MCHC measures the concentration of hemoglobin in RBCs.",
+  "Mean Cell Hemoglobin Concentration (MCHC)": {
+    "What It Is": "MCHC measures the concentration of hemoglobin in Red Blood Cells (RBCs).",
     "Reference Values": {
-      "Adults (18-49)": {
-        "Upper Limit": 36,
-        "Lower Limit": 32
+      "males": {
+        "0-17": {
+          "Upper Limit": 34.5,
+          "Lower Limit": 30.5
+        },
+        "18-49": {
+          "Upper Limit": 35.5,
+          "Lower Limit": 31.5
+        },
+        "50+": {
+          "Upper Limit": 35.8,
+          "Lower Limit": 31.8
+        }
       },
-      "Children (0-17": {
-        "Upper Limit": 35,
-        "Lower Limit": 31
-      },
-      "Elderly (50+)": {
-        "Upper Limit": 37,
-        "Lower Limit": 33
+      "females": {
+        "0-17": {
+          "Upper Limit": 34.5,
+          "Lower Limit": 30.5
+        },
+        "18-49": {
+          "Upper Limit": 35.5,
+          "Lower Limit": 31.5
+        },
+        "50+": {
+          "Upper Limit": 36.0,
+          "Lower Limit": 32.0
+        }
       }
     },
     "Effects": {
@@ -199,19 +315,35 @@
     ]
   },
   "Red Cell Distribution Width (RDW)": {
-    "What It Is": "RDW measures the variation in the size of RBCs.",
-    "Reference Values": {
-      "Adults (18-49)": {
-        "Upper Limit": 15,
-        "Lower Limit": 11.5
+    "What It Is": "RDW measures the variation in the size of Red Blood Cells (RBCs).",
+    "Reference Values":  {
+      "males": {
+        "0-17": {
+          "Upper Limit": 14.5,
+          "Lower Limit": 10.5
+        },
+        "18-49": {
+          "Upper Limit": 15.5,
+          "Lower Limit": 11.5
+        },
+        "50+": {
+          "Upper Limit": 16.0,
+          "Lower Limit": 12.0
+        }
       },
-      "Children (0-17)": {
-        "Upper Limit": 15,
-        "Lower Limit": 11.5
-      },
-      "Elderly (50+)": {
-        "Upper Limit": 15,
-        "Lower Limit": 11.5
+      "females": {
+        "0-17": {
+          "Upper Limit": 14.5,
+          "Lower Limit": 10.5
+        },
+        "18-49": {
+          "Upper Limit": 15.5,
+          "Lower Limit": 11.5
+        },
+        "50+": {
+          "Upper Limit": 16.0,
+          "Lower Limit": 12.0
+        }
       }
     },
     "Effects": {
@@ -229,17 +361,33 @@
   "Platelet Count": {
     "What It Is": "Platelets help with blood clotting.",
     "Reference Values": {
-      "Adults (18-49)": {
-        "Upper Limit": 450000,
-        "Lower Limit": 150000
+      "males": {
+        "0-17": {
+          "Upper Limit": 450.0,
+          "Lower Limit": 300.0
+        },
+        "18-49": {
+          "Upper Limit": 350.0,
+          "Lower Limit": 150.0
+        },
+        "50+": {
+          "Upper Limit": 370.0,
+          "Lower Limit": 160.0
+        }
       },
-      "Children (0-17)": {
-        "Upper Limit": 450000,
-        "Lower Limit": 150000
-      },
-      "Elderly (50+)": {
-        "Upper Limit": 450000,
-        "Lower Limit": 150000
+      "females": {
+        "0-17": {
+          "Upper Limit": 450.0,
+          "Lower Limit": 300.0
+        },
+        "18-49": {
+          "Upper Limit": 350.0,
+          "Lower Limit": 150.0
+        },
+        "50+": {
+          "Upper Limit": 370.0,
+          "Lower Limit": 160.0
+        }
       }
     },
     "Effects": {
@@ -255,31 +403,47 @@
     ]
   },
   "Mean Platelet Volume (MPV)": {
-    "What It Is": "MPV measures the average size of platelets.",
+    "What It Is": "MPV measures the average size of platelets in your blood.",
     "Reference Values": {
-      "Adults (18-49)": {
-        "Upper Limit": 13.5,
-        "Lower Limit": 7.5
+      "males": {
+        "0-17": {
+          "Upper Limit": 11.5,
+          "Lower Limit": 7.0
+        },
+        "18-49": {
+          "Upper Limit": 12.0,
+          "Lower Limit": 7.0
+        },
+        "50+": {
+          "Upper Limit": 12.2,
+          "Lower Limit": 7.2
+        }
       },
-      "Children (0-17)": {
-        "Upper Limit": 13.5,
-        "Lower Limit": 7.5
-      },
-      "Elderly (50+)": {
-        "Upper Limit": 13.5,
-        "Lower Limit": 7.5
+      "females": {
+        "0-17": {
+          "Upper Limit": 11.5,
+          "Lower Limit": 7.0
+        },
+        "18-49": {
+          "Upper Limit": 12.0,
+          "Lower Limit": 7.0
+        },
+        "50+": {
+          "Upper Limit": 12.2,
+          "Lower Limit": 7.2
+        }
       }
     },
     "Effects": {
-      "Above Limit": "High MPV may indicate certain health conditions.",
-      "Below Limit": "Low MPV is usually not a significant concern."
+      "Above Limit": "High MPV may indicate inflammation or bone marrow disorders.",
+      "Below Limit": "Low MPV is not typically a concern."
     },
     "Possible Causes": {
-      "Above Limit": "Infection, inflammation.",
-      "Below Limit": "Bone marrow issues, certain medications."
+      "Above Limit": "Infection, inflammation, bone marrow disorders.",
+      "Below Limit": "Less common and not well-defined."
     },
     "Natural Fixes": [
-      "Treatment depends on the underlying cause."
+      "Treatment depends on the underlying cause and may include medications or addressing inflammation."
     ]
   }
 }

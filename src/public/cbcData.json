@@ -202,9 +202,9 @@
         "Schedule regular checkups",
         "Avoid Excessive Alcohol and Drug Use",
         "Minimize exposure to environmental toxins and hazardous materials ",
-        "If you have a family history of inherited anemias, consider genetic counseling"
-      ]
-  },
+        "If you have a family history of inherited anemias, consider genetic counseling"]
+    }
+  },  
   "Hematocrit (HCT)": {
     "What It Is": "Hematocrit measures the percentage of blood volume made up of Red Blood Cells (RBCs).",
     "Reference Values": {
@@ -289,6 +289,7 @@
         "Medication management under healthcare provider guidance.",
         "Follow prenatal care recommendations during pregnancy."
       ]
+    }  
   },
   "Mean Cell Volume (MCV)": {
     "What It Is": "MCV measures the average volume of your Red Blood Cells (RBCs).",

@@ -32,19 +32,17 @@
       }
     },
     "Effects": {
-      "Above Limit": "Imagine your body is fighting a big battle. You might have an infection, like a cold, or an inflammation, like a sore throat.",
-      "Below Limit": "If your security force is understaffed, you could catch infections more easily. You might feel tired and weak because your body can't defend itself properly."
+      "Above Limit": ["Imagine your body is fighting a big battle. You might have an infection, like a cold, or an inflammation, like a sore throat."],
+      "Below Limit": ["If your security force is understaffed, you could catch infections more easily. You might feel tired and weak because your body can't defend itself properly."]
     },
     "Possible Causes": {
-      "Above Limit": "Infections can cause the number of white blood cells to increase. So can inflammation from injuries or illnesses.",
-      "Below Limit": "If you have too few white blood cells, it could be a sign that your body isn't making them properly. Some medications can also reduce the number of these little soldiers."
+      "Above Limit": ["Infections can cause the number of white blood cells to increase. So can inflammation from injuries or illnesses."],
+      "Below Limit": ["If you have too few white blood cells, it could be a sign that your body isn't making them properly. Some medications can also reduce the number of these little soldiers."]
     },
-    "Natural Fixes": [
-      "Stay hydrated: Drinking water helps your body function well.",
-      "Get enough sleep: Your soldiers need their rest to be ready for action.",
-      "Manage stress: Stress weakens your immune system, so take it easy when you can.",
-      "Maintain a healthy diet: Eating balanced meals with fruits and vegetables provides the energy your body needs to fight off invaders."
-    ]
+    "Natural Fixes":{
+      "Above Limit": ["Infections can cause the number of white blood cells to increase. So can inflammation from injuries or illnesses."],
+      "Below Limit": ["If you have too few white blood cells, it could be a sign that your body isn't making them properly. Some medications can also reduce the number of these little soldiers."]
+    }
   },
   "Red Blood Cell (RBC)": {
     "What It Is": "Red blood cells are like your body's delivery trucks. They carry oxygen from your lungs to all the different parts of your body, making sure every cell gets the oxygen it needs to keep you alive.",

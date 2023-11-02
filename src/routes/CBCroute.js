@@ -26,14 +26,14 @@ router.post('/', (req, res) => {
         paramobj.result = "below limit";
         paramobj.effects = data[key]["Effects"]["Below Limit"];
         paramobj.causes = data[key]["Possible Causes"]["Below Limit"];
-        paramobj.fixes = data[key]["Natural Fixes"];
+        paramobj.preventions = data[key]["Preventions"]["Below Limit"];
       } else if (paramvalue <= reference["Upper Limit"]) {
         paramobj.result = "ok";
       } else {
         paramobj.result = "above limit";
         paramobj.effects = data[key]["Effects"]["Above Limit"];
         paramobj.causes = data[key]["Possible Causes"]["Above Limit"];
-        paramobj.fixes = data[key]["Natural Fixes"];
+        paramobj.preventions = data[key]["Preventions"]["Above Limit"];
       }
 
       resdata[key] = paramobj;

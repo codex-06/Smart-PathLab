@@ -12,7 +12,7 @@ const CBCRouter = require('./routes/CBCroute');
 app.use('/cbc', CBCRouter);
 
 
-
+app.use(cors());
 
 // Start the Express server
 const port = process.env.PORT || 3000;

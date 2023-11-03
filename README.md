@@ -49,11 +49,11 @@ The server will start on the configured port (default is 3000).
 
 The CBC Analyzer Backend Server provides the following API endpoints for the frontend: 
 
-- `POST /analyze`: This endpoint expects the CBC report data from the frontend. It analyzes the data, compares it with the reference data, and sends back an appropriate response.
+- `POST /cbc`: This endpoint expects the CBC report data from the frontend. It analyzes the data, compares it with the reference data, and sends back an appropriate response.
 
 ### Request Example
 
-Send a POST request to the `/analyze` endpoint with a JSON body containing the CBC report data. The structure should be similar to the one you mentioned in your initial question:
+Send a POST request to the `/cbc` endpoint with a JSON body containing the CBC report data. The structure should be similar to the one you mentioned in your initial question:
 
 ```json
 {

@@ -1,5 +1,4 @@
 # Smart-PathLab
-Here's a sample README for the backend server using Express for your CBC Analyzer project:
 
 # CBC Analyzer Backend Server
 

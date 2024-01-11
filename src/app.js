@@ -16,7 +16,7 @@ app.get("/",(req,res)=> {
 })
 
 // Start the Express server
-const port =process.env.port || 3000;
+const port =process.env.PORT || 4000;
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
